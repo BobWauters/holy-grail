@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+
+body > * {
+    background: #eee;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid white;
+}
+
+
+.flex-header,
+.flex-footer {
+
+    flex: 2 100%;
+
+}
+
+
+.flex-aside,
+.flex-nav{
+    height:50vh;
+    flex: 1;
+}
+
+
+.flex-content {
+    height:50vh;
+
+    flex: 2 ;
+
+
+}

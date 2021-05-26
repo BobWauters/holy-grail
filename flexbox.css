@@ -1,0 +1,43 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+
+body > * {
+    background: #eee;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid white;
+}
+@media screen and (min-width: 1200px) {
+    .flex-nav, .flex-aside, .flex-content {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+.flex-header,
+.flex-footer {
+
+    flex: 2 100%;
+
+}
+
+
+.flex-aside,
+.flex-nav{
+    height:50vh;
+    flex: 1;
+}
+
+
+.flex-content {
+    height:50vh;
+
+    flex: 2 ;
+
+
+}
